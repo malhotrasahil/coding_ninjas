@@ -1,0 +1,19 @@
+create table holdings (acc_no int,security_nm varchar(20),security_id int);
+
+insert into holdings values(1,'HDFC',11);
+insert into holdings values(2,'AXIS',12);
+insert into holdings values(3,'SBI',13);
+insert into holdings values(4,'ICICI',14);
+insert into holdings values(5,'KOTAK',15);
+insert into holdings values(6,'PNB',16);
+
+
+
+create table translation(fromm varchar(20), too varchar(20));
+
+insert into translation values('HDFC','hdfc bank');
+insert into translation values('AXIS','axis bank');
+insert into translation values('SBI','sbi bank');
+insert into translation values('ICICI','icici bank');
+insert into translation values('KOTAK','kotak bank');
+insert into translation values('PNB','pnb bank');
